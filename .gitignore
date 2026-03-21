@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+
+# LaTeX (Baseado na sua estrutura profissional)
+*.aux
+*.log
+*.toc
+*.pdf
+*.gz
+*.fdb_latexmk
+*.fls
+
+# Sistema
+.DS_Store
+Thumbs.db
