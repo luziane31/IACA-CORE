@@ -1,22 +1,19 @@
-# IACA-CORE: Arquivo de Configuração Principal
-# Define os parâmetros de sensoriamento e filtros cognitivos
+# IACA-CORE: Primary Configuration File
+# Define sensing parameters
 
-class Config:
+class Configuration:
     SYSTEM_NAME = "IACA-CORE"
     VERSION = "1.0.0"
-    
-    # Configurações de Sensoriamento
-    SENSORY_SAMPLING_RATE = 0.5 
+
+    # Sensing Settings
+    SENSORY_SAMPLING_RATE = 0.5
     USE_LIDAR = True
     USE_COMPUTER_VISION = True
 
-    # Filtro C0 (Pré-processamento)
+    # C0 Filter (Pre-processing)
     FILTER_LEVEL = "HIGH"
     DATA_NORMALIZATION = True
 
-    # Parâmetros Cognitivos
-    COGNITIVE_MODE = "ADAPTIVE"
-    LATENCY_THRESHOLD = 150 
+    # Cognitive Parameters
 
-config = Config()
 
